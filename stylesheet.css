@@ -1,0 +1,155 @@
+* {
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+/*スクロールバー全体*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/*スクロールバーの軌道*/
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #D2D2D2;
+}
+
+/*スクロールバーの動く部分*/
+::-webkit-scrollbar-thumb {
+  background-color: #D2D2D2;
+  border-radius: 10px;
+  box-shadow:0 0 0 1px #D2D2D2;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.header_inner {
+    width:1000px;
+    height: 85px;
+    margin:0 auto;
+    position: relative;
+}
+
+.headerlogo {
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 20px
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+  padding-top: 10px;
+}
+
+header li {
+    text-decoration: none;
+    display: inline;
+    margin-right:10px;
+}
+
+.fs-main {
+    margin: 0 auto;
+    width:1370px;
+    height:525px;
+}
+
+.mainvisual {
+    height: 600px;
+}
+
+.news-area {
+    width: 1000px;
+    margin:0 auto;
+}
+
+.newslogo {
+    width:980px;
+    height: 108px;
+    margin:0 auto;
+}
+
+.news-area-inner  {
+    width:1000px;
+    display: flex;
+    margin:0 auto;
+}
+
+.information {
+    width: 480px;
+    height: 126px;
+    margin:0 auto;
+}
+
+.information p {
+    padding-top:13px;
+}
+
+.scroll-area {
+    width: 480px;
+    height: 89px;
+    padding-top: 13px;
+    overflow-y: scroll;
+    font-size:12px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.scroll-area li {
+    list-style: none;
+    padding:10px;
+}
+
+.mainbanner {
+    width:1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo {
+    padding:50px 0 50px 0;
+    width:325;
+    height:82;
+}
+
+.newitems {
+    display: flex;
+}
+
+.newitem img {
+    width: 335px;
+    height: 250px;
+}
+
+.owabi img {
+    margin: 0 auto;
+}
+
+footer {
+    width: 1000px;
+    height: 98px;
+    position: relative;
+    border-top:1px solid #D2D2D2;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin:auto;
+    text-align: center;
+    font-size:11px;
+}
+
+.footerlogo {
+    position: absolute;
+}
+
+.footerlogo img {
+    width: 123px;
+    height: 40px;
+}
